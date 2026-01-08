@@ -1,5 +1,4 @@
 const { DEFAULT_PAGE_SIZE } = require('@/config/constants');
-const { postModel } = require('@/models');
 const postService = require('@/services/post.service');
 
 const getAll = async (req, res) => {
