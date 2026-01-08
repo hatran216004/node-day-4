@@ -30,7 +30,7 @@ class Post {
     });
 
     if (conditions.length > 0) {
-      query += ` where ${conditions.join(' and ')}`;
+      query += `where ${conditions.join(' and ')}`;
     }
 
     query += ' ORDER BY created_at limit ? offset ?';
